@@ -182,7 +182,7 @@ npm install
 
 ### ENV
 
-Создать `.env.local`:
+Создать `.env.local` на основе `.env.example`:
 
 ```env
 N8N_WEBHOOK_URL=https://n8n2.lagomdev.ru/webhook/<workflowID>
@@ -197,11 +197,7 @@ TELEGRAM_BOT_TOKEN=xxx
 npm run dev
 ```
 
-### Запуск бота
-
-```bash
-npm run bot
-```
+Бот будет добавлен на следующих этапах.
 
 ---
 
